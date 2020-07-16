@@ -5,6 +5,13 @@ import Header from './Components/Header';
 import BaiTapLayout from './Components/BaiTapLayout/BaiTapLayout';
 import BaiTapLayout2 from './Components/BaiTapLayout2/BaiTapLayout2';
 import DataBinding from './DataBinding/DataBinding';
+import Eventbinding from './EventBinding/Eventbinding';
+import RenderWithState from './RenderWithState/RenderWithState';
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+import ExambleGlasses from './RenderWithState/ExambleGlasses';
+import DemoProps from './Props/DemoProps';
+
+
 
 function App() {
     return (
@@ -24,9 +31,14 @@ function App() {
         </a>
       </header> */}
             {/* <Header /> */}
-            {/* <BaiTapLayout /> */}
+            <BaiTapLayout />
             {/* <BaiTapLayout2 /> */}
-            <DataBinding />
+            {/* <DataBinding /> */}
+            {/* <Eventbinding /> */}
+            {/* <RenderWithState/> */}
+            {/* <BaiTapChonXe/> */}
+            {/* <ExambleGlasses/> */}
+            <DemoProps/>
         </div>
     );
 }
