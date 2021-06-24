@@ -31,14 +31,14 @@ function App() {
         </a>
       </header> */}
             {/* <Header /> */}
-            <BaiTapLayout />
+            {/* <BaiTapLayout /> */}
             {/* <BaiTapLayout2 /> */}
             {/* <DataBinding /> */}
             {/* <Eventbinding /> */}
             {/* <RenderWithState/> */}
             {/* <BaiTapChonXe/> */}
-            {/* <ExambleGlasses/> */}
-            <DemoProps/>
+            <ExambleGlasses/>
+            {/* <DemoProps/> */}
         </div>
     );
 }

@@ -6,7 +6,7 @@ class RenderWithState extends Component {
    isLogin = true;
    userName = "Nhut";
    renderContent = () => {
-      if (this.tate.isLogin) {
+      if (this.state.isLogin) {
          return <p>hello {this.userName}</p>
       }
       return <button onClick={() => {
